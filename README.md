@@ -4,6 +4,7 @@
 This is a sample code to deploy a PHP Application using AWS ECS and CDK
 
 PHP Code directory: ./sample_aws_ecs_php_app/php-app/src/
+
 Docker file: ./sample_aws_ecs_php_app/php-app/Dockerfile
 
 This project is set up like a standard Python project.  The initialization
@@ -24,12 +25,6 @@ step to activate your virtualenv.
 
 ```
 $ source .venv/bin/activate
-```
-
-If you are a Windows platform, you would activate the virtualenv like this:
-
-```
-% .venv\Scripts\activate.bat
 ```
 
 Once the virtualenv is activated, you can install the required dependencies.
