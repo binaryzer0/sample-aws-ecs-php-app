@@ -7,6 +7,14 @@ PHP Code directory: ./sample_aws_ecs_php_app/php-app/src/
 
 Docker file: ./sample_aws_ecs_php_app/php-app/Dockerfile
 
+# Pre Reqs
+
+- AWS CDK (latest version)
+- Docker deamon (running in background)
+- Python3.x/pip/virtualenv
+
+# Installation details
+
 This project is set up like a standard Python project.  The initialization
 process also creates a virtualenv within this project, stored under the `.venv`
 directory.  To create the virtualenv it assumes that there is a `python3`
